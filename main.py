@@ -423,11 +423,11 @@ def game_shadow(multiplicador):
         SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
         FASE_TEXT = get_font(15).render("Tranquilidade nas Profundezas", True, "Black")
-        SCORE_RECT = FASE_TEXT.get_rect(center=(512, 30))
+        SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
         SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
         timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Black")
-        timer_rect = timer_text.get_rect(center=(900, 30))
+        timer_rect = timer_text.get_rect(center=(1150, 30))
         SCREEN.blit(timer_text, timer_rect)
 
         VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Black")
@@ -500,11 +500,11 @@ def game_shadow(multiplicador):
                     SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
                     FASE_TEXT = get_font(15).render("Sombras Emergentes", True, "White")
-                    SCORE_RECT = FASE_TEXT.get_rect(center=(512, 30))
+                    SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
                     SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
                     timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "White")
-                    timer_rect = timer_text.get_rect(center=(900, 30))
+                    timer_rect = timer_text.get_rect(center=(1150, 30))
                     SCREEN.blit(timer_text, timer_rect)
 
                     VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "White")
@@ -566,7 +566,7 @@ def game_shadow(multiplicador):
                                 elapsed_time = (pygame.time.get_ticks() - start_time) // 1000 
 
                                 SCREEN.blit(BG4, (0, 0))
-                                SCREEN.blit(shadow.sprite_shadow, shadow.rect)
+                                SCREEN.blit(shadow.image, shadow.rect)
                                 SCREEN.blit(tubaMaligno.image, tubaMaligno.rect)
                                 SCREEN.blit(afogado.image, afogado.rect)
 
@@ -575,11 +575,11 @@ def game_shadow(multiplicador):
                                 SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
                                 FASE_TEXT = get_font(15).render("Abismo do Desespero", True, "White")
-                                SCORE_RECT = FASE_TEXT.get_rect(center=(512, 30))
+                                SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
                                 SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
                                 timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "White")
-                                timer_rect = timer_text.get_rect(center=(900, 30))
+                                timer_rect = timer_text.get_rect(center=(1150, 30))
                                 SCREEN.blit(timer_text, timer_rect)
 
                                 VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "White")
@@ -806,7 +806,7 @@ def main_menu():
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()
 
-        MENU_TEXT = get_font(60).render("DOLPHIN RESCUE", True, "#DA6A00")
+        MENU_TEXT = get_font(60).render("DOLPHIN RESCUE", True, "BLACK")
         MENU_RECT = MENU_TEXT.get_rect(center=(640, 100))
 
         PLAY_BUTTON = Button(image=pygame.image.load("assets/Play Rect.png"), pos=(640, 250), 
