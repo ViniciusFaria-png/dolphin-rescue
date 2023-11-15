@@ -175,19 +175,19 @@ def game_navy(multiplicador):
         SCREEN.blit(navy.image, navy.rect)
         
 
-        SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "Black")
+        SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "Yellow")
         SCORE_RECT = SCORE_TEXT.get_rect(center=(90, 30))
         SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
-        FASE_TEXT = get_font(5).render("Tranquilidade nas Profundezas", True, "Black")
-        SCORE_RECT = FASE_TEXT.get_rect(center=(340, 30))
+        FASE_TEXT = get_font(15).render("Tranquilidade nas Profundezas", True, "Yellow")
+        SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
         SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
-        timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Black")
+        timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Yellow")
         timer_rect = timer_text.get_rect(center=(1150, 30))
         SCREEN.blit(timer_text, timer_rect)
 
-        VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Black")
+        VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Yellow")
         VIDA_RECT = VIDA_TEXT.get_rect(center=(90,50))
         SCREEN.blit(VIDA_TEXT,VIDA_RECT)
 
@@ -251,19 +251,19 @@ def game_navy(multiplicador):
                     SCREEN.blit(pira.image, pira.rect)
                     SCREEN.blit(navy.image, navy.rect)
 
-                    SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "White")
+                    SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "Yellow")
                     SCORE_RECT = SCORE_TEXT.get_rect(center=(90, 30))
                     SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
-                    FASE_TEXT = get_font(15).render("Sombras Emergentes", True, "White")
+                    FASE_TEXT = get_font(15).render("Sombras Emergentes", True, "Yellow")
                     SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
                     SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
-                    timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "White")
+                    timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Yellow")
                     timer_rect = timer_text.get_rect(center=(1150, 30))
                     SCREEN.blit(timer_text, timer_rect)
 
-                    VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "White")
+                    VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Yellow")
                     VIDA_RECT = VIDA_TEXT.get_rect(center=(90,50))
                     SCREEN.blit(VIDA_TEXT,VIDA_RECT)
 
@@ -324,19 +324,19 @@ def game_navy(multiplicador):
                                 SCREEN.blit(tubaMaligno.image,   tubaMaligno.rect)
                                 SCREEN.blit(afogado.image, afogado.rect)
 
-                                SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "White")
+                                SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "Yellow")
                                 SCORE_RECT = SCORE_TEXT.get_rect(center=(90, 30))
                                 SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
-                                FASE_TEXT = get_font(15).render("Abismo do Desespero", True, "White")
+                                FASE_TEXT = get_font(15).render("Abismo do Desespero", True, "Yellow")
                                 SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
                                 SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
-                                timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "White")
+                                timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Yellow")
                                 timer_rect = timer_text.get_rect(center=(1150, 30))
                                 SCREEN.blit(timer_text, timer_rect)
 
-                                VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "White")
+                                VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Yellow")
                                 VIDA_RECT = VIDA_TEXT.get_rect(center=(90,50))
                                 SCREEN.blit(VIDA_TEXT,VIDA_RECT)
 
@@ -418,19 +418,19 @@ def game_shadow(multiplicador):
         SCREEN.blit(tuba.image,   tuba.rect)
         SCREEN.blit(afogado.image, afogado.rect)
 
-        SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "Black")
+        SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "Yellow")
         SCORE_RECT = SCORE_TEXT.get_rect(center=(90, 30))
         SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
-        FASE_TEXT = get_font(15).render("Tranquilidade nas Profundezas", True, "Black")
+        FASE_TEXT = get_font(15).render("Tranquilidade nas Profundezas", True, "Yellow")
         SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
         SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
-        timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Black")
+        timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Yellow")
         timer_rect = timer_text.get_rect(center=(1150, 30))
         SCREEN.blit(timer_text, timer_rect)
 
-        VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Black")
+        VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Yellow")
         VIDA_RECT = VIDA_TEXT.get_rect(center=(90,50))
         SCREEN.blit(VIDA_TEXT,VIDA_RECT)
 
@@ -495,19 +495,19 @@ def game_shadow(multiplicador):
                     SCREEN.blit(pira.image,   pira.rect)
                     SCREEN.blit(afogado.image, afogado.rect)
 
-                    SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "White")
+                    SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "Yellow")
                     SCORE_RECT = SCORE_TEXT.get_rect(center=(90, 30))
                     SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
-                    FASE_TEXT = get_font(15).render("Sombras Emergentes", True, "White")
+                    FASE_TEXT = get_font(15).render("Sombras Emergentes", True, "Yellow")
                     SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
                     SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
-                    timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "White")
+                    timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Yellow")
                     timer_rect = timer_text.get_rect(center=(1150, 30))
                     SCREEN.blit(timer_text, timer_rect)
 
-                    VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "White")
+                    VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Yellow")
                     VIDA_RECT = VIDA_TEXT.get_rect(center=(90,50))
                     SCREEN.blit(VIDA_TEXT,VIDA_RECT)
 
@@ -570,19 +570,19 @@ def game_shadow(multiplicador):
                                 SCREEN.blit(tubaMaligno.image, tubaMaligno.rect)
                                 SCREEN.blit(afogado.image, afogado.rect)
 
-                                SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "White")
+                                SCORE_TEXT = get_font(15).render(f"Score: {score}", True, "Yellow")
                                 SCORE_RECT = SCORE_TEXT.get_rect(center=(90, 30))
                                 SCREEN.blit(SCORE_TEXT, SCORE_RECT)
 
-                                FASE_TEXT = get_font(15).render("Abismo do Desespero", True, "White")
+                                FASE_TEXT = get_font(15).render("Abismo do Desespero", True, "Yellow")
                                 SCORE_RECT = FASE_TEXT.get_rect(center=(640, 30))
                                 SCREEN.blit(FASE_TEXT, SCORE_RECT)
 
-                                timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "White")
+                                timer_text = timer_font.render(f"Tempo: {time_limit - elapsed_time}", True, "Yellow")
                                 timer_rect = timer_text.get_rect(center=(1150, 30))
                                 SCREEN.blit(timer_text, timer_rect)
 
-                                VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "White")
+                                VIDA_TEXT = get_font(15).render(f"Vidas: {life}", True, "Yellow")
                                 VIDA_RECT = VIDA_TEXT.get_rect(center=(90,50))
                                 SCREEN.blit(VIDA_TEXT,VIDA_RECT)
 
